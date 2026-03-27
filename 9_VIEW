@@ -173,7 +173,7 @@ WITH READ ONLY;
 INSERT INTO V_DEPT VALUES('D10','해외영업4부','L1');
 UPDATE V_DEPT SET LOCATION_ID = 'L2' WHERE DEPT_ID='D1';
 DELETE FROM V_DEPT;
---SQL 오류: ORA-42399: 읽기 전용 뷰에서는 DML 작업을 수행할 수 없습니다.
+--SQL 오류: ORA-42399: 읽기 전용 뷰에서는 DML 작업을 수행할 수 없습니다
 
 
     
