@@ -176,4 +176,6 @@ DELETE FROM V_DEPT;
 --SQL 오류: ORA-42399: 읽기 전용 뷰에서는 DML 작업을 수행할 수 없습니다.
 
 
+
+
     
